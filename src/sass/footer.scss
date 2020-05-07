@@ -1,0 +1,57 @@
+footer{
+    background-color: $white;
+    padding: 20px 0px;    
+    .copyright {
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 15px;
+        color: #4a4a4a;
+        letter-spacing: 0.88px;
+        text-transform: capitalize;
+        a{
+            text-decoration: none;
+            color: #007bff;
+        }
+    }
+    .social {
+        overflow: hidden;
+        text-align: right;
+        @media (max-width: 768px){
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+    }
+    ul{
+        margin-bottom: 0px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        li{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            margin: 0px 5px;
+            display: inline-block;
+            a{
+                color: $white;
+                text-align: center;
+                background-color: #00b4c6;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                border-radius: 5px;
+                display: inline-block;
+                font-size: 16px;
+                -webkit-transition: all 0.3s ease 0s;
+                -moz-transition: all 0.3s ease 0s;
+                -o-transition: all 0.3s ease 0s;
+                transition: all 0.3s ease 0s;
+                &:hover{
+                    color: $white;
+                }
+            }
+        }
+    }        
+}

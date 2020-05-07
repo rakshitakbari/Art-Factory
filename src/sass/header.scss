@@ -1,0 +1,86 @@
+.header-area.header-sticky {
+    min-height: 80px;
+}
+.header-area {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    height: 100px;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    .navbar{
+        position: fixed;
+        width: 100%;
+    }
+    .fixed-header{
+        background-color: $white !important;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
+        height: 80px;
+        .navbar-brand{
+            color: #1e1e1e !important;
+        }
+        .navbar-nav{
+            a.nav-link {
+                color: #1e1e1e !important;
+            }
+        }
+        .menu-trigger i {
+            color: $black;
+        }
+    }
+    .navbar-brand{
+        line-height: 80px;
+        color: $white;
+        font-size: 28px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        float: left;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+        @media (max-width: 768px){
+            font-size: 20px;
+        }
+    }
+    .menu-trigger{
+        @media (max-width: 768px){
+            i{
+                color: $white;
+            }
+        }
+    }
+    .navbar-collapse{
+        @media (max-width: 768px){
+            background-color: #00BCD4;
+        }
+        .navbar-nav{
+            li{
+                padding-left: 10px;
+                padding-right: 10px;
+                a {
+                    display: block;
+                    font-weight: 500;
+                    font-size: 13px;
+                    color: $white;
+                    text-transform: uppercase;
+                    -webkit-transition: all 0.3s ease 0s;
+                    -moz-transition: all 0.3s ease 0s;
+                    -o-transition: all 0.3s ease 0s;
+                    transition: all 0.3s ease 0s;
+                    height: 40px;
+                    border: transparent;
+                    letter-spacing: 1px;
+                    @media (max-width: 768px){
+                        color: $white;
+                    }    
+                }
+            }
+        }
+    }
+}

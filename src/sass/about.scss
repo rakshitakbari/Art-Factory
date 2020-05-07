@@ -1,0 +1,93 @@
+#about{
+    padding: 120px 0px;
+    border-bottom: 1px solid #eee;
+    @media (max-width: 768px){
+        padding: 20px 0;
+    }  
+    .right-text {
+        align-self: center;
+        h5{
+            font-size: 26px;
+            font-weight: 700;
+            color: #1e1e1e;
+            line-height: 40px;
+            margin-bottom: 25px;
+            letter-spacing: 0.5px;
+        } 
+        p {
+            margin-bottom: 40px;
+            font-size: 16px;
+            line-height: 30px;
+            letter-spacing: 0.5px;
+            color: #4a4a4a;
+        }   
+        a.main-button {
+            font-size: 13px;
+            border-radius: 20px;
+            padding: 12px 20px;
+            background-color: #00b4c6;
+            text-transform: uppercase;
+            color: $white;
+            letter-spacing: 0.25px;
+            -webkit-transition: all 0.3s ease 0s;
+            -moz-transition: all 0.3s ease 0s;
+            -o-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+        }
+    }
+}
+#about2{
+    padding: 120px 0px;
+    @media (max-width: 768px){
+        padding: 20px 0;
+    }  
+    .left-heading{
+        h5{
+            font-size: 26px;
+            font-weight: 700;
+            color: #1e1e1e;
+            line-height: 40px;
+            margin-bottom: 25px;
+            letter-spacing: 0.5px;
+        }
+    }
+    p {
+        margin-bottom: 30px;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+    }
+    ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        li{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            .text {
+                margin-left: 80px;
+                h6 {
+                    padding-top: 12px;
+                    font-size: 21px;
+                    font-weight: 500;
+                    color: #1e1e1e;
+                    margin-bottom: 20px;
+                }
+                p {
+                    margin-bottom: 30px;
+                    font-size: 16px;
+                    line-height: 30px;
+                    letter-spacing: 0.5px;
+                }
+            }
+           img {
+                display: inline;
+                float: left;
+            }     
+        }
+    }
+    .right-image {
+        align-self: center;
+    }
+}
